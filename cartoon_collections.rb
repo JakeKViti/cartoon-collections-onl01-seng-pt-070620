@@ -1,9 +1,12 @@
 def roll_call_dwarves(array)
-  hash = Hash.new
-  array.each_with_index {|item, index|
-    hash[item] = index
-  }
-  puts hash.join
+ spot = 0
+ line = []
+ array.each do |name|
+  spot += 1
+  line.push("#{spot}. #{name}")
+ end
+ currentlyLine = line.join(" ")
+puts currentlyLine
 end
 
 def summon_captain_planet# code an argument here
