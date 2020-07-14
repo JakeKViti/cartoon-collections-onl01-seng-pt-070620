@@ -11,10 +11,11 @@ end
 
 def summon_captain_planet(array)
   capElements = []
+  capElements1 = []
   capElements = array.collect {|element| element + "!"}
-  capElements = array.map! {|element| element.capitalize}
-  capElements.join("! ")
-  puts capElements
+  capElements = capElements1
+  capElements1 = array.map! {|element| element.capitalize}
+  puts capElements1
 
 end
 
