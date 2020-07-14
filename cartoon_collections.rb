@@ -20,7 +20,7 @@ end
 def long_planeteer_calls(array)
   if array.length < 5
     return true
-  else 
+  else
     return false
 end
 
