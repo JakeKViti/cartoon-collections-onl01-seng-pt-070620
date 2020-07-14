@@ -13,7 +13,7 @@ def summon_captain_planet(array)
   capElements = []
   capElements = array.map! {|element| element.capitalize}
   capElements = array.collect {|element| element + "!"}
-  puts capElements
+  print capElements
 
 end
 
