@@ -10,8 +10,10 @@ puts currentlyLine
 end
 
 def summon_captain_planet(array)
-  array.collect {|element| element + "!"}
-  puts array
+  sailorScouts = []
+  sailorScouts = array.collect {|element| element + "!"}
+  puts sailorScouts
+  
 end
 
 def long_planeteer_calls# code an argument here
